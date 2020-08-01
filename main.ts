@@ -35,9 +35,3 @@ while (true) {
     NeoPixelUpdate()
     basic.pause(pause2)
 }
-basic.forever(function () {
-	
-})
-control.inBackground(function () {
-	
-})
