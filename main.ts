@@ -1,6 +1,6 @@
 function NeoPixelUpdate () {
     for (let index = 0; index <= leds - 1; index++) {
-        strip.setPixelColor(index, neopixel.hsl(0, 255, list[index]))
+        strip.setPixelColor(index, neopixel.hsl(177, 255, list[index]))
     }
     strip.show()
     for (let index2 = 0; index2 <= leds - 1; index2++) {
@@ -14,9 +14,9 @@ let leds = 0
 leds = 26
 strip = neopixel.create(DigitalPin.P8, leds, NeoPixelMode.RGB)
 list = [leds - 1]
-let brightness = 31
-fade = 0.65
-let pause2 = 10
+let brightness = 24
+fade = 0.12
+let pause2 = 100
 while (true) {
     for (let index3 = 0; index3 <= leds - 1; index3++) {
         list[index3] = brightness
