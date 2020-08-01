@@ -14,8 +14,8 @@ let leds = 0
 leds = 26
 strip = neopixel.create(DigitalPin.P8, leds, NeoPixelMode.RGB)
 list = [leds - 1]
-let brightness = 30
-fade = 0.5
+let brightness = 31
+fade = 0.65
 let pause2 = 10
 while (true) {
     for (let index3 = 0; index3 <= leds - 1; index3++) {
